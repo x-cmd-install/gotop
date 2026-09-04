@@ -7,7 +7,7 @@ about:
   head: 2872dab
   archived: false
   latestVersion: v4.2.0
-  collectedAt: 2026-09-04T19:19:59Z
+  collectedAt: 2026-09-04T21:18:30Z
 timeline:
   created: 2020-02-12
   lastCommit: 2026-05-06
@@ -82,6 +82,99 @@ total:
   openIssue: 85
   commit: 889
 ---
+path: /home/runner/.x-repo/github.com/xxxserxxx/gotop
+collectedAt: 2026-09-04T21:18:31Z
+loc:
+  Go:
+    code: 265189
+    comments: 30300
+    blanks: 31586
+    files: 981
+  AssemblyGAS:
+    code: 38267
+    comments: 1152
+    blanks: 2202
+    files: 76
+  Toml:
+    code: 1710
+    comments: 37
+    blanks: 161
+    files: 10
+  Sh:
+    code: 1196
+    comments: 93
+    blanks: 76
+    files: 11
+  CHeader:
+    code: 464
+    comments: 145
+    blanks: 54
+    files: 9
+  C:
+    code: 162
+    comments: 6
+    blanks: 35
+    files: 2
+  Python:
+    code: 121
+    comments: 2
+    blanks: 21
+    files: 2
+  Yaml:
+    code: 113
+    comments: 22
+    blanks: 26
+    files: 5
+  Makefile:
+    code: 96
+    comments: 0
+    blanks: 25
+    files: 3
+  ReStructuredText:
+    code: 79
+    comments: 0
+    blanks: 32
+    files: 1
+  Cpp:
+    code: 77
+    comments: 4
+    blanks: 20
+    files: 1
+  Bash:
+    code: 76
+    comments: 8
+    blanks: 13
+    files: 2
+  Json:
+    code: 16
+    comments: 0
+    blanks: 8
+    files: 1
+  Dockerfile:
+    code: 14
+    comments: 3
+    blanks: 9
+    files: 1
+  Bitbake:
+    code: 13
+    comments: 20
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 3608
+    blanks: 1206
+    files: 54
+  Text:
+    code: 0
+    comments: 5107
+    blanks: 31
+    files: 4
+total:
+  code: 308484
+  comments: 40566
+  blanks: 35687
+  files: 1164
 ---
 date: "2026-08-24"
 repo:
