@@ -5,7 +5,7 @@ about:
   head: 2872dab
   archived: false
   latestVersion: "v4.2.0"
-  collectedAt: 2026-09-07T05:46:39Z
+  collectedAt: 2026-09-07T18:39:15Z
 timeline:
   created: 2020-02-12
   lastCommit: 2026-05-06
@@ -81,7 +81,7 @@ total:
   commit: 889
 ---
 path: /home/runner/.x-repo/github.com/xxxserxxx/gotop
-collectedAt: 2026-09-07T05:46:42Z
+collectedAt: 2026-09-07T18:39:17Z
 loc:
   Go:
     code: 265189
@@ -271,7 +271,7 @@ checks:
       - 'Warn: 0 commits out of 22 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:46:43+00:00
+  collectedAt: 2026-09-07T18:39:17+00:00
   platform:
     darwin/arm64:
       name:  gotop_v4.2.0_darwin_arm64.tgz
