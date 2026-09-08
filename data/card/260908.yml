@@ -5,7 +5,7 @@ about:
   head: 2872dab
   archived: false
   latestVersion: "v4.2.0"
-  collectedAt: 2026-09-08T02:58:32Z
+  collectedAt: 2026-09-08T05:41:30Z
 timeline:
   created: 2020-02-12
   lastCommit: 2026-05-06
@@ -81,7 +81,7 @@ total:
   commit: 889
 ---
 path: /home/runner/.x-repo/github.com/xxxserxxx/gotop
-collectedAt: 2026-09-08T02:58:33Z
+collectedAt: 2026-09-08T05:41:32Z
 loc:
   Go:
     code: 265189
