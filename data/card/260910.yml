@@ -7,7 +7,7 @@ about:
   latestVersion: "v4.2.0"
   latestRelease: "v4.2.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T06:07:08Z
+  collectedAt: 2026-09-10T20:34:48Z
 timeline:
   created: 2020-02-12
   lastCommit: 2026-05-06
@@ -85,7 +85,7 @@ total:
   commit: 889
 ---
 path: /home/runner/.x-repo/github.com/xxxserxxx/gotop
-collectedAt: 2026-09-10T06:07:10Z
+collectedAt: 2026-09-10T20:34:50Z
 loc:
   Go:
     code: 265189
