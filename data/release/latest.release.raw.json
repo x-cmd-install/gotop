@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 2877467,
       "digest": null,
-      "download_count": 666,
+      "download_count": 667,
       "created_at": "2022-09-29T18:25:17Z",
       "updated_at": "2022-09-29T18:25:18Z",
       "browser_download_url": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_darwin_arm64.tgz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 3194016,
       "digest": null,
-      "download_count": 172640,
+      "download_count": 172700,
       "created_at": "2022-09-29T18:25:28Z",
       "updated_at": "2022-09-29T18:25:29Z",
       "browser_download_url": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_amd64.deb"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 3196474,
       "digest": null,
-      "download_count": 3350,
+      "download_count": 3352,
       "created_at": "2022-09-29T18:25:25Z",
       "updated_at": "2022-09-29T18:25:25Z",
       "browser_download_url": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_amd64.rpm"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 3041686,
       "digest": null,
-      "download_count": 58310,
+      "download_count": 58340,
       "created_at": "2022-09-29T18:25:19Z",
       "updated_at": "2022-09-29T18:25:20Z",
       "browser_download_url": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_amd64.tgz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 2630146,
       "digest": null,
-      "download_count": 389,
+      "download_count": 390,
       "created_at": "2022-09-29T18:25:29Z",
       "updated_at": "2022-09-29T18:25:29Z",
       "browser_download_url": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_arm5.deb"
@@ -679,7 +679,7 @@
       "state": "uploaded",
       "size": 2647322,
       "digest": null,
-      "download_count": 2024,
+      "download_count": 2025,
       "created_at": "2022-09-29T18:25:21Z",
       "updated_at": "2022-09-29T18:25:21Z",
       "browser_download_url": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_linux_arm64.tgz"
@@ -859,7 +859,7 @@
       "state": "uploaded",
       "size": 2666650,
       "digest": null,
-      "download_count": 2758,
+      "download_count": 2760,
       "created_at": "2022-09-29T18:25:23Z",
       "updated_at": "2022-09-29T18:25:23Z",
       "browser_download_url": "https://github.com/xxxserxxx/gotop/releases/download/v4.2.0/gotop_v4.2.0_windows_amd64.zip"
