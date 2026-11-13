@@ -1,34 +1,4 @@
-- repo: stalix_dev
-  srcname: bin/go/top
-  binname: bin/go/top
-  visiblename: bin/go/top
-  version: 4.2.0
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
-- repo: wakemeops
-  subrepo: terminal
-  binname: gotop
-  visiblename: gotop
-  version: 4.2.0
-  origversion: 4.2.0-1~ops2deb
-  status: newest
-  maintainers:
-    - ops2deb@upciti.com
-- repo: termux
-  srcname: gotop
-  binname: gotop
-  visiblename: gotop
-  version: 4.2.0
-  origversion: null
-  status: newest
-  summary: A terminal based graphical activity monitor inspired by gtop and vtop
-  maintainers:
-    - termux@github
-- repo: liguros_stable
+- repo: gentoo_ovl_guru
   srcname: sys-process/gotop
   visiblename: sys-process/gotop
   version: 4.2.0
@@ -43,63 +13,20 @@
     - MIT
   categories:
     - sys-process
-- repo: alpine_edge
-  subrepo: community
-  srcname: gotop
-  binname: gotop
-  visiblename: gotop
-  version: 4.2.0
-  origversion: 4.2.0-r33
-  status: newest
-  summary: Terminal based graphical activity monitor
-  maintainers:
-    - void@fluix.one
-  licenses:
-    - AGPL-3.0-or-later
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: gotop
-  binname: gotop
-  visiblename: gotop
-  version: 4.2.0
-  origversion: 4.2.0_5
-  status: newest
-  summary: Terminal based graphical activity monitor
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - MIT
-- repo: liguros_develop
-  srcname: sys-process/gotop
-  visiblename: sys-process/gotop
-  version: 4.2.0
-  origversion: null
-  status: newest
-  summary: A terminal based graphical activity monitor inspired by gtop and vtop
-  maintainers:
-    - mathieu.tortuyaux@gmail.com
-  licenses:
-    - Apache-2.0
-    - BSD
-    - MIT
-  categories:
-    - sys-process
-- repo: alt_p11
+- repo: rpmsphere
   srcname: gotop
   binnames:
     - gotop
     - gotop-debuginfo
   visiblename: gotop
-  version: 4.2.0
-  origversion: 4.2.0-alt1
-  status: newest
+  version: 3.0.0
+  origversion: 3.0.0-1
+  status: outdated
   summary: A terminal based graphical activity monitor inspired by gtop and vtop
-  maintainers:
-    - obirvalger@altlinux.org
   licenses:
-    - MIT-Festival
+    - AGPL-3.0
   categories:
-    - Other
+    - System/Utility
 - repo: alpine_3_17
   subrepo: community
   srcname: gotop
@@ -165,13 +92,6 @@
     - void@fluix.one
   licenses:
     - AGPL-3.0-or-later
-- repo: homebrew
-  srcname: gotop
-  visiblename: gotop
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Terminal based graphical activity monitor inspired by gtop and vtop
 - repo: alpine_3_22
   subrepo: community
   srcname: gotop
@@ -211,6 +131,35 @@
     - void@fluix.one
   licenses:
     - AGPL-3.0-or-later
+- repo: alpine_edge
+  subrepo: community
+  srcname: gotop
+  binname: gotop
+  visiblename: gotop
+  version: 4.2.0
+  origversion: 4.2.0-r33
+  status: newest
+  summary: Terminal based graphical activity monitor
+  maintainers:
+    - void@fluix.one
+  licenses:
+    - AGPL-3.0-or-later
+- repo: alt_p11
+  srcname: gotop
+  binnames:
+    - gotop
+    - gotop-debuginfo
+  visiblename: gotop
+  version: 4.2.0
+  origversion: 4.2.0-alt1
+  status: newest
+  summary: A terminal based graphical activity monitor inspired by gtop and vtop
+  maintainers:
+    - obirvalger@altlinux.org
+  licenses:
+    - MIT-Festival
+  categories:
+    - Other
 - repo: altsisyphus
   srcname: gotop
   binnames:
@@ -283,7 +232,21 @@
     - yuri@freebsd.org
   categories:
     - sysutils
-- repo: gentoo_ovl_guru
+- repo: homebrew
+  srcname: gotop
+  visiblename: gotop
+  version: 4.2.0
+  origversion: null
+  status: newest
+  summary: Terminal based graphical activity monitor inspired by gtop and vtop
+- repo: homebrew
+  srcname: gotop
+  visiblename: gotop
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Terminal based graphical activity monitor inspired by gtop and vtop
+- repo: liguros_stable
   srcname: sys-process/gotop
   visiblename: sys-process/gotop
   version: 4.2.0
@@ -298,13 +261,21 @@
     - MIT
   categories:
     - sys-process
-- repo: homebrew
-  srcname: gotop
-  visiblename: gotop
+- repo: liguros_develop
+  srcname: sys-process/gotop
+  visiblename: sys-process/gotop
   version: 4.2.0
   origversion: null
   status: newest
-  summary: Terminal based graphical activity monitor inspired by gtop and vtop
+  summary: A terminal based graphical activity monitor inspired by gtop and vtop
+  maintainers:
+    - mathieu.tortuyaux@gmail.com
+  licenses:
+    - Apache-2.0
+    - BSD
+    - MIT
+  categories:
+    - sys-process
 - repo: macports
   srcname: sysutils/gotop
   binname: gotop
@@ -440,20 +411,6 @@
     - AGPL-3.0
   categories:
     - Other
-- repo: rpmsphere
-  srcname: gotop
-  binnames:
-    - gotop
-    - gotop-debuginfo
-  visiblename: gotop
-  version: 3.0.0
-  origversion: 3.0.0-1
-  status: outdated
-  summary: A terminal based graphical activity monitor inspired by gtop and vtop
-  licenses:
-    - AGPL-3.0
-  categories:
-    - System/Utility
 - repo: scoop
   subrepo: main
   binname: gotop
@@ -474,3 +431,46 @@
     - anton@samokhvalov.xyz
   categories:
     - bin
+- repo: stalix_dev
+  srcname: bin/go/top
+  binname: bin/go/top
+  visiblename: bin/go/top
+  version: 4.2.0
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
+- repo: termux
+  srcname: gotop
+  binname: gotop
+  visiblename: gotop
+  version: 4.2.0
+  origversion: null
+  status: newest
+  summary: A terminal based graphical activity monitor inspired by gtop and vtop
+  maintainers:
+    - termux@github
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: gotop
+  binname: gotop
+  visiblename: gotop
+  version: 4.2.0
+  origversion: 4.2.0_5
+  status: newest
+  summary: Terminal based graphical activity monitor
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - MIT
+- repo: wakemeops
+  subrepo: terminal
+  binname: gotop
+  visiblename: gotop
+  version: 4.2.0
+  origversion: 4.2.0-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
